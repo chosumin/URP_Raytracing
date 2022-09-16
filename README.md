@@ -1,11 +1,12 @@
-# URP_Raytracing
-Raytracing using compute shader
-
 **Ray Tracing**
 
 기존의 렌더링 방식인 레스터라이징에 비하여 더욱 사실적인 반사 표현이 가능한 렌더링 기법
 
 카메라가 보고 있는 방향부터 광원까지의 길을 역추적하여 렌더링하는 방법
+
+**결과**
+
+![image](https://user-images.githubusercontent.com/10754000/190593414-85b5984f-9b71-4f2b-beb6-0829f669fe58.png)
 
 **구현 방법**
 
@@ -17,8 +18,3 @@ Raytracing using compute shader
 
 3. 반사 정보를 바탕으로 Diffuse, Reflection, Shadow 된 최종 색을 구함
 ![image](https://user-images.githubusercontent.com/10754000/190593147-e59e3463-e40e-4461-834e-8afd673e6b21.png)
-
-**결과**
-
-![image](https://user-images.githubusercontent.com/10754000/190593414-85b5984f-9b71-4f2b-beb6-0829f669fe58.png)
-
